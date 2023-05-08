@@ -7,4 +7,5 @@ Basic script built as a solution for one of the tasks executed during class by F
 # DEVELOPMENT DATA:
 1. Time taken: 15 minutes.
 2. Utilities used: Scanner.
+3. Uses Java classes.
 
