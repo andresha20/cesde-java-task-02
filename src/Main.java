@@ -40,10 +40,23 @@ public class Main {
                 switch(selection) {
                     case 1:
                     case 2:
-
+                        float side1, side2;
+                        outputChatbox = "Insert side 1:";
+                        System.out.println(outputChatbox);
+                        side1 = parser.nextFloat();
+                        outputChatbox = "Insert side 2:";
+                        System.out.println(outputChatbox);
+                        side2 = parser.nextFloat();
+                        Perimeter rectangleArea = new Perimeter();
+                        rectangleArea.findSquareOrRectanglePerimeter(side1, side2);
                         break;
                     case 3:
-
+                        float radius;
+                        outputChatbox = "Insert radius:";
+                        System.out.println(outputChatbox);
+                        radius = parser.nextFloat();
+                        Perimeter circleArea = new Perimeter();
+                        circleArea.findCirclePerimeter(radius);
                     default:
                         System.exit(-1);
                         break;

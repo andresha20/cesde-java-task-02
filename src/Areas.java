@@ -1,10 +1,11 @@
 public class Areas {
+    private float area;
     public float findSquareOrRectangleArea(float sideOne, float sideTwo) {
-        float area = sideOne * sideTwo;
+        area = sideOne * sideTwo;
         return area;
     }
     public float findCircleArea(float radius) {
-        float area = (float)Math.PI * 2 * radius;
+        area = (float)Math.PI * (float)Math.pow(radius, 2);
         return area;
     }
 }
